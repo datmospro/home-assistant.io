@@ -26,9 +26,8 @@ To enable this platform, add the following lines to your `configuration.yaml` fi
 # Example configuration.yaml entry
 notify:
   - platform: html5
-    name: NOTIFIER_NAME
-    gcm_api_key: YOUR_API_KEY
-    gcm_sender_id: YOUR_SENDER_ID
+    gcm_api_key: 'YOUR_API_KEY'
+    gcm_sender_id: 'YOUR_SENDER_ID'
 ```
 
 {% configuration %}
